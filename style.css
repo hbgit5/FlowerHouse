@@ -94,20 +94,23 @@ nav li a:hover {
     height: 245px;
     width: 520px;
     border: 10px solid #ffffff;
+    vertical-align: middle; 
+   margin-left: 3%; 
 }
 .box1 h1 {
     font-family: arial;
     font-size: 25px;
     color: #4c5159;
+    margin-top:140px;
 }
 .box1 span {
     color: #7b588e;
 }
 
 margin-top:-50px;
-2 .box1 {
+ .box1 {
     display: inline-block;
-    text-align: center;
+    text-align: right;
 }
 
 #bottom-collection-text {
@@ -148,7 +151,6 @@ margin-top:-50px;
     left: 20px;
 }
 
-a {}
 
 .box {
     position: absolute;
@@ -221,7 +223,16 @@ footer p {
     display:inline-block;
 }
 
+#dot-container i {
+color:rgb(180, 143, 194);
+position: relative;
+right: -88px;
+top: 6px;
+    padding:5px;
+}
 
+.dot-active {
+    color:rgb(123, 88, 142)!important;}
 
 
 
@@ -233,3 +244,32 @@ padding:8px;
 }
 
 
+
+
+
+.box1-content {
+display:inline-block;
+    position:relative;
+}
+
+
+
+.thumb-wrapper {
+    display: inline-block; 
+    vertical-align:middle;
+    width:90%;
+    margin-top:-20px;
+}
+
+.box1 img{
+    position:relative;
+    display:inline-block;
+    top:0px;
+    left:0px;
+    
+}
+
+.thumb-wrapper box1 {
+    display: inline-block;
+    position:relative;
+}
